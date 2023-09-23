@@ -4,7 +4,7 @@ serve:
 	iris-dev ./configs/config.dev.yaml
 
 sender:
-	iris-sender configs/config.dev.yaml
+	iris-sender ./configs/config.dev.yaml
 
 owa-sync:
 	iris-owa-sync configs/config.dev.yaml
